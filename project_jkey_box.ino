@@ -101,6 +101,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state1 = 1;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   if (valswitch1 == LOW && state1 == 1) {
     Serial.println("kunci 1 letak balik");
@@ -112,6 +117,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state1 = 0;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
 
   if (valswitch2 == HIGH && state2 == 0){
@@ -124,6 +134,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state2 = 1;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   if (valswitch2 == LOW && state2 == 1) {
     Serial.println("kunci 2 letak balik");
@@ -135,6 +150,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state2 = 0;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
 
   if (valswitch3 == HIGH && state3 == 0){
@@ -147,6 +167,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state3 = 1;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   if (valswitch3 == LOW && state3 == 1) {
     Serial.println("kunci 3 letak balik");
@@ -158,6 +183,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state3 = 0;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
 
   if (valswitch4 == HIGH && state4 == 0){
@@ -170,6 +200,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state4 = 1;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   if (valswitch4 == LOW && state4 == 1) {
     Serial.println("kunci 4 letak balik");
@@ -181,6 +216,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state4 = 0;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
 
   if (valswitch5 == HIGH && state5 == 0){
@@ -193,6 +233,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state5 = 1;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   if (valswitch5 == LOW && state5 == 1) {
     Serial.println("kunci 5 letak balik");
@@ -204,6 +249,11 @@ void loop() {
     bot.sendMessage(CHAT_ID, "Bot started up", "");
     state5 = 0;
     delay(1000);
+    lcd.clear();
+    lcd.setCursor(3, 0);
+    lcd.print("SILA PILIH");
+    lcd.setCursor(6, 1);
+    lcd.print("KUNCI");
     }
   
   getFingerprintIDez();
